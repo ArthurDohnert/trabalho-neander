@@ -47,7 +47,6 @@ set_global_assignment -name BDF_FILE NZ.bdf
 set_global_assignment -name BDF_FILE divisorFreq.bdf
 set_global_assignment -name BDF_FILE MUX2X1_8b.bdf
 set_global_assignment -name BDF_FILE BlocoMux.bdf
-set_global_assignment -name BDF_FILE ENCOD3X8.bdf
 set_global_assignment -name BDF_FILE DECOD416.bdf
 set_global_assignment -name BDF_FILE Neander.bdf
 set_global_assignment -name BDF_FILE AC.bdf
@@ -59,3 +58,4 @@ set_global_assignment -name BDF_FILE elementosULA/HA.bdf
 set_global_assignment -name BDF_FILE elementosULA/FA.bdf
 set_global_assignment -name BDF_FILE elementosULA/AND4b.bdf
 set_global_assignment -name BDF_FILE Reg8b.bdf
+set_global_assignment -name BDF_FILE ENCOD_ULA.bdf
