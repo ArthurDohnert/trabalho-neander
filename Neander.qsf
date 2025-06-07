@@ -51,3 +51,11 @@ set_global_assignment -name BDF_FILE ENCOD3X8.bdf
 set_global_assignment -name BDF_FILE DECOD416.bdf
 set_global_assignment -name BDF_FILE Neander.bdf
 set_global_assignment -name BDF_FILE AC.bdf
+set_global_assignment -name BDF_FILE ULA.bdf
+set_global_assignment -name BDF_FILE elementosULA/RCA4.bdf
+set_global_assignment -name BDF_FILE elementosULA/OR4b.bdf
+set_global_assignment -name BDF_FILE elementosULA/NOT4b.bdf
+set_global_assignment -name BDF_FILE elementosULA/HA.bdf
+set_global_assignment -name BDF_FILE elementosULA/FA.bdf
+set_global_assignment -name BDF_FILE elementosULA/AND4b.bdf
+set_global_assignment -name BDF_FILE Reg8b.bdf

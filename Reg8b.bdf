@@ -37,22 +37,6 @@ applicable agreement for further details.
 )
 (pin
 	(input)
-	(rect 56 48 224 64)
-	(text "INPUT" (rect 125 0 153 10)(font "Arial" (font_size 6)))
-	(text "cargaAC" (rect 5 0 47 12)(font "Arial" ))
-	(pt 168 8)
-	(drawing
-		(line (pt 84 12)(pt 109 12))
-		(line (pt 84 4)(pt 109 4))
-		(line (pt 113 8)(pt 168 8))
-		(line (pt 84 12)(pt 84 4))
-		(line (pt 109 4)(pt 113 8))
-		(line (pt 109 12)(pt 113 8))
-	)
-	(text "VCC" (rect 128 7 148 17)(font "Arial" (font_size 6)))
-)
-(pin
-	(input)
 	(rect 56 72 224 88)
 	(text "INPUT" (rect 125 0 153 10)(font "Arial" (font_size 6)))
 	(text "rst" (rect 5 0 17 12)(font "Arial" ))
@@ -72,6 +56,22 @@ applicable agreement for further details.
 	(rect 56 96 224 112)
 	(text "INPUT" (rect 125 0 153 10)(font "Arial" (font_size 6)))
 	(text "clk" (rect 5 0 19 12)(font "Arial" ))
+	(pt 168 8)
+	(drawing
+		(line (pt 84 12)(pt 109 12))
+		(line (pt 84 4)(pt 109 4))
+		(line (pt 113 8)(pt 168 8))
+		(line (pt 84 12)(pt 84 4))
+		(line (pt 109 4)(pt 113 8))
+		(line (pt 109 12)(pt 113 8))
+	)
+	(text "VCC" (rect 128 7 148 17)(font "Arial" (font_size 6)))
+)
+(pin
+	(input)
+	(rect 56 48 224 64)
+	(text "INPUT" (rect 125 0 153 10)(font "Arial" (font_size 6)))
+	(text "carga" (rect 5 0 33 12)(font "Arial" ))
 	(pt 168 8)
 	(drawing
 		(line (pt 84 12)(pt 109 12))
@@ -797,11 +797,6 @@ applicable agreement for further details.
 	(pt 488 48)
 )
 (connector
-	(text "cargaAC" (rect 288 64 330 76)(font "Arial" ))
-	(pt 344 80)
-	(pt 280 80)
-)
-(connector
 	(text "R[0]" (rect 560 32 581 44)(font "Arial" ))
 	(pt 552 48)
 	(pt 576 48)
@@ -831,11 +826,6 @@ applicable agreement for further details.
 	(pt 488 176)
 )
 (connector
-	(text "cargaAC" (rect 288 192 330 204)(font "Arial" ))
-	(pt 344 208)
-	(pt 280 208)
-)
-(connector
 	(text "rst" (rect 504 237 516 249)(font "Arial" )(vertical))
 	(pt 520 256)
 	(pt 520 232)
@@ -848,11 +838,6 @@ applicable agreement for further details.
 (connector
 	(pt 440 296)
 	(pt 488 296)
-)
-(connector
-	(text "cargaAC" (rect 288 312 330 324)(font "Arial" ))
-	(pt 344 328)
-	(pt 280 328)
 )
 (connector
 	(text "rst" (rect 504 357 516 369)(font "Arial" )(vertical))
@@ -869,11 +854,6 @@ applicable agreement for further details.
 	(pt 488 424)
 )
 (connector
-	(text "cargaAC" (rect 288 440 330 452)(font "Arial" ))
-	(pt 344 456)
-	(pt 280 456)
-)
-(connector
 	(text "rst" (rect 504 485 516 497)(font "Arial" )(vertical))
 	(pt 520 504)
 	(pt 520 480)
@@ -886,11 +866,6 @@ applicable agreement for further details.
 (connector
 	(pt 800 48)
 	(pt 848 48)
-)
-(connector
-	(text "cargaAC" (rect 648 64 690 76)(font "Arial" ))
-	(pt 704 80)
-	(pt 640 80)
 )
 (connector
 	(text "rst" (rect 864 109 876 121)(font "Arial" )(vertical))
@@ -907,11 +882,6 @@ applicable agreement for further details.
 	(pt 848 176)
 )
 (connector
-	(text "cargaAC" (rect 648 192 690 204)(font "Arial" ))
-	(pt 704 208)
-	(pt 640 208)
-)
-(connector
 	(text "rst" (rect 864 237 876 249)(font "Arial" )(vertical))
 	(pt 880 256)
 	(pt 880 232)
@@ -926,11 +896,6 @@ applicable agreement for further details.
 	(pt 848 296)
 )
 (connector
-	(text "cargaAC" (rect 648 312 690 324)(font "Arial" ))
-	(pt 704 328)
-	(pt 640 328)
-)
-(connector
 	(text "rst" (rect 864 357 876 369)(font "Arial" )(vertical))
 	(pt 880 376)
 	(pt 880 352)
@@ -943,11 +908,6 @@ applicable agreement for further details.
 (connector
 	(pt 800 424)
 	(pt 848 424)
-)
-(connector
-	(text "cargaAC" (rect 648 440 690 452)(font "Arial" ))
-	(pt 704 456)
-	(pt 640 456)
 )
 (connector
 	(text "rst" (rect 864 485 876 497)(font "Arial" )(vertical))
@@ -1058,4 +1018,44 @@ applicable agreement for further details.
 	(text "R[7]" (rect 648 424 669 436)(font "Arial" ))
 	(pt 704 440)
 	(pt 640 440)
+)
+(connector
+	(text "carga" (rect 288 64 315 76)(font "Arial" ))
+	(pt 344 80)
+	(pt 280 80)
+)
+(connector
+	(text "carga" (rect 288 192 315 204)(font "Arial" ))
+	(pt 344 208)
+	(pt 280 208)
+)
+(connector
+	(text "carga" (rect 288 312 315 324)(font "Arial" ))
+	(pt 344 328)
+	(pt 280 328)
+)
+(connector
+	(text "carga" (rect 288 440 315 452)(font "Arial" ))
+	(pt 344 456)
+	(pt 280 456)
+)
+(connector
+	(text "carga" (rect 648 64 675 76)(font "Arial" ))
+	(pt 704 80)
+	(pt 640 80)
+)
+(connector
+	(text "carga" (rect 648 192 675 204)(font "Arial" ))
+	(pt 704 208)
+	(pt 640 208)
+)
+(connector
+	(text "carga" (rect 648 312 675 324)(font "Arial" ))
+	(pt 704 328)
+	(pt 640 328)
+)
+(connector
+	(text "carga" (rect 648 440 675 452)(font "Arial" ))
+	(pt 704 456)
+	(pt 640 456)
 )
