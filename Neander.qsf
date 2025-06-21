@@ -43,6 +43,12 @@ set_global_assignment -name ORIGINAL_QUARTUS_VERSION "13.0 SP1"
 set_global_assignment -name PROJECT_CREATION_TIME_DATE "09:26:13  APRIL 20, 2025"
 set_global_assignment -name LAST_QUARTUS_VERSION "13.0 SP1"
 set_global_assignment -name PROJECT_OUTPUT_DIRECTORY output_files
+set_global_assignment -name BDF_FILE elementosControle/unidade_controle.bdf
+set_global_assignment -name BDF_FILE elementosControle/temporizador.bdf
+set_global_assignment -name BDF_FILE elementosControle/mux2x1_1b.bdf
+set_global_assignment -name BDF_FILE elementosControle/mux_temporizador.bdf
+set_global_assignment -name BDF_FILE elementosControle/DECOD3X8.bdf
+set_global_assignment -name BDF_FILE elementosControle/contador3b.bdf
 set_global_assignment -name BDF_FILE NZ.bdf
 set_global_assignment -name BDF_FILE divisorFreq.bdf
 set_global_assignment -name BDF_FILE MUX2X1_8b.bdf
