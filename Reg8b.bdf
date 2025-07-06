@@ -71,7 +71,7 @@ applicable agreement for further details.
 	(input)
 	(rect 56 48 224 64)
 	(text "INPUT" (rect 125 0 153 10)(font "Arial" (font_size 6)))
-	(text "carga" (rect 5 0 33 12)(font "Arial" ))
+	(text "carga" (rect 5 0 32 12)(font "Arial" ))
 	(pt 168 8)
 	(drawing
 		(line (pt 84 12)(pt 109 12))
@@ -802,16 +802,6 @@ applicable agreement for further details.
 	(pt 576 48)
 )
 (connector
-	(text "R[0]" (rect 288 48 309 60)(font "Arial" ))
-	(pt 344 64)
-	(pt 280 64)
-)
-(connector
-	(text "D[0]" (rect 288 32 309 44)(font "Arial" ))
-	(pt 344 48)
-	(pt 280 48)
-)
-(connector
 	(text "rst" (rect 504 109 516 121)(font "Arial" )(vertical))
 	(pt 520 128)
 	(pt 520 104)
@@ -915,36 +905,6 @@ applicable agreement for further details.
 	(pt 880 480)
 )
 (connector
-	(text "D[1]" (rect 288 160 309 172)(font "Arial" ))
-	(pt 344 176)
-	(pt 280 176)
-)
-(connector
-	(text "R[1]" (rect 288 176 309 188)(font "Arial" ))
-	(pt 344 192)
-	(pt 280 192)
-)
-(connector
-	(text "D[2]" (rect 288 280 309 292)(font "Arial" ))
-	(pt 344 296)
-	(pt 280 296)
-)
-(connector
-	(text "R[2]" (rect 288 296 309 308)(font "Arial" ))
-	(pt 344 312)
-	(pt 280 312)
-)
-(connector
-	(text "D[3]" (rect 288 408 309 420)(font "Arial" ))
-	(pt 344 424)
-	(pt 280 424)
-)
-(connector
-	(text "R[3]" (rect 288 424 309 436)(font "Arial" ))
-	(pt 344 440)
-	(pt 280 440)
-)
-(connector
 	(text "R[1]" (rect 560 160 581 172)(font "Arial" ))
 	(pt 552 176)
 	(pt 576 176)
@@ -978,46 +938,6 @@ applicable agreement for further details.
 	(text "R[7]" (rect 920 408 941 420)(font "Arial" ))
 	(pt 912 424)
 	(pt 936 424)
-)
-(connector
-	(text "D[4]" (rect 648 32 669 44)(font "Arial" ))
-	(pt 704 48)
-	(pt 640 48)
-)
-(connector
-	(text "R[4]" (rect 648 48 669 60)(font "Arial" ))
-	(pt 704 64)
-	(pt 640 64)
-)
-(connector
-	(text "D[5]" (rect 648 160 669 172)(font "Arial" ))
-	(pt 704 176)
-	(pt 640 176)
-)
-(connector
-	(text "R[5]" (rect 648 176 669 188)(font "Arial" ))
-	(pt 704 192)
-	(pt 640 192)
-)
-(connector
-	(text "D[6]" (rect 648 280 669 292)(font "Arial" ))
-	(pt 704 296)
-	(pt 640 296)
-)
-(connector
-	(text "R[6]" (rect 648 296 669 308)(font "Arial" ))
-	(pt 704 312)
-	(pt 640 312)
-)
-(connector
-	(text "D[7]" (rect 648 408 669 420)(font "Arial" ))
-	(pt 704 424)
-	(pt 640 424)
-)
-(connector
-	(text "R[7]" (rect 648 424 669 436)(font "Arial" ))
-	(pt 704 440)
-	(pt 640 440)
 )
 (connector
 	(text "carga" (rect 288 64 315 76)(font "Arial" ))
@@ -1058,4 +978,84 @@ applicable agreement for further details.
 	(text "carga" (rect 648 440 675 452)(font "Arial" ))
 	(pt 704 456)
 	(pt 640 456)
+)
+(connector
+	(text "R[0]" (rect 288 32 309 44)(font "Arial" ))
+	(pt 344 48)
+	(pt 280 48)
+)
+(connector
+	(text "D[0]" (rect 288 48 309 60)(font "Arial" ))
+	(pt 344 64)
+	(pt 280 64)
+)
+(connector
+	(text "R[1]" (rect 288 160 309 172)(font "Arial" ))
+	(pt 344 176)
+	(pt 280 176)
+)
+(connector
+	(text "D[1]" (rect 288 176 309 188)(font "Arial" ))
+	(pt 344 192)
+	(pt 280 192)
+)
+(connector
+	(text "R[2]" (rect 288 280 309 292)(font "Arial" ))
+	(pt 344 296)
+	(pt 280 296)
+)
+(connector
+	(text "D[2]" (rect 288 296 309 308)(font "Arial" ))
+	(pt 344 312)
+	(pt 280 312)
+)
+(connector
+	(text "R[3]" (rect 288 408 309 420)(font "Arial" ))
+	(pt 344 424)
+	(pt 280 424)
+)
+(connector
+	(text "D[3]" (rect 288 424 309 436)(font "Arial" ))
+	(pt 344 440)
+	(pt 280 440)
+)
+(connector
+	(text "R[4]" (rect 648 32 669 44)(font "Arial" ))
+	(pt 704 48)
+	(pt 640 48)
+)
+(connector
+	(text "D[4]" (rect 648 48 669 60)(font "Arial" ))
+	(pt 704 64)
+	(pt 640 64)
+)
+(connector
+	(text "R[5]" (rect 648 160 669 172)(font "Arial" ))
+	(pt 704 176)
+	(pt 640 176)
+)
+(connector
+	(text "D[5]" (rect 648 176 669 188)(font "Arial" ))
+	(pt 704 192)
+	(pt 640 192)
+)
+(connector
+	(text "R[6]" (rect 648 280 669 292)(font "Arial" ))
+	(pt 704 296)
+	(pt 640 296)
+)
+(connector
+	(text "D[6]" (rect 648 296 669 308)(font "Arial" ))
+	(pt 704 312)
+	(pt 640 312)
+)
+(connector
+	(text "R[7]" (rect 648 408 669 420)(font "Arial" ))
+	(pt 704 424)
+	(pt 640 424)
+)
+(connector
+	(text "D[7]" (rect 684 424 705 436)(font "Arial" ))
+	(pt 704 440)
+	(pt 640 440)
 )
